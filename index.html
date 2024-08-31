@@ -281,7 +281,7 @@
             
         </section>
         <button  id="infoButton3Desk" class="hidden md:block mt-20 mx-auto bg-button text-white text-lg font-bold px-6 py-2 rounded-md shadow-lg hover:shadow-xl transition duration-300 ">Get your Diet plan now</button>
-        <div class="hidden md:block w-full border-t-8 border-gray-300 my-20 "></div>
+        <div class=" my-20 "></div>
 
         <!--FAQ-->
         <!--phone view-->
@@ -317,32 +317,26 @@
             <img src="assests\img\Pop Up Website.png" >
         </section>
 
-        <div id="popup" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center hidden">
-            <div class="relative rounded-lg p-8 w-50 md:w-full z-10">
-                <!-- Image positioned absolutely behind the content -->
-                <img src="assests\img\Pop Up Website (1).png" class="absolute inset-0 z-0 h-[500px] object-cover pointer-events-none">
-        
-                <div class="relative z-20 max-w-md "> <!-- Content wrapper with higher z-index -->
-                    <div class="flex justify-between items-center mt-10">
-                        <h2 class="text-xl font-bold">TELL US ABOUT YOURSELF!</h2>
-                        <button id="closeButton" class="text-gray-500 hover:text-gray-700">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <line x1="18" y1="6" x2="6" y2="18"></line>
-                                <line x1="6" y1="6" x2="18" y2="18"></line>
-                            </svg>
-                        </button>
-                    </div>
-                    <div id="progressContainer" class="my-4 flex space-x-1 mx-auto"></div>
-                    <h3 id="question" class="text-lg font-semibold mb-4"></h3>
-                    <div id="options" class="space-y-2"></div>
-                    <div class="mt-6 flex justify-end">
-                        <button id="nextButton" class="bg-gray-300 text-gray-500 font-bold py-2 px-4 rounded cursor-not-allowed" disabled>
-                            Next
-                        </button>
-                    </div>
+        <div id="popup" class="fixed inset-0 bg-[#009846] md:bg-black bg-opacity-70 flex items-center justify-center hidden ">
+            <div class="bg-white rounded-lg p-8 max-w-md w-50 md:w-[800px] shadow-2xl md:shadow-none ">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-xl font-bold">TELL US ABOUT YOURSELF!</h2>
+                    <button id="closeButton" class="text-gray-500 hover:text-gray-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </button>
+                </div>
+                <div id="progressContainer" class="mb-4 flex space-x-1"></div>
+                <h3 id="question" class="text-lg font-semibold mb-4"></h3>
+                <div id="options" class="space-y-2"></div>
+                <div class="mt-6 flex justify-end">
+                    <button id="nextButton" class="bg-gray-300 text-gray-500 font-bold py-2 px-4 rounded cursor-not-allowed" disabled>
+                        Next
+                    </button>
                 </div>
             </div>
         </div>
+        
+        
         
         
         <!--social media-->
